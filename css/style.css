@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 20px;
+}
+header{
+   
+    position: relative;
+}
+.head{
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 58%;
+}
+header nav{
+    padding: 20px 0!important;
+    z-index: 1;
+}
+header nav img{
+    width: 50%;
+    padding-bottom: 2px;
+}
+header nav ul{}
+header nav ul li{}
+header nav ul li a{
+    height: 40px;
+    width: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.6s;
+}
+header nav ul li a i{}
+.serch{
+    background-color: #f07574;
+    border-radius: 50%;
+}
+
+.header-section{
+}
+.header-section .row{
+}
+.content{
+    margin-left: 60px;
+    padding-top: 40px;
+}
+.content h2{
+    color: #3c3768;
+    font-size: 40px;
+    font-weight: 700;
+}
+.content P{
+    font-weight: 500;
+    font-size: 15px;
+    color: #455a64;
+    letter-spacing: 1px;
+    margin-top: 14px;
+    margin-bottom: 25px;
+    line-height: 2;
+}
+.content h4{
+    font-size: 18px;
+    color: #455a64;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.content form{}
+.content form .form-control{
+    border-color: #fff;
+    box-shadow: 1px 1px 8px -2px #fa7875;
+}
+.content form .btn{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ce6972+10,e67174+54,e67174+54,fa7875+75,fa7875+75 */
+    background: rgb(206,105,114); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(206,105,114,1) 10%, rgba(230,113,116,1) 54%, rgba(230,113,116,1) 54%, rgba(250,120,117,1) 75%, rgba(250,120,117,1) 75%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(206,105,114,1) 10%,rgba(230,113,116,1) 54%,rgba(230,113,116,1) 54%,rgba(250,120,117,1) 75%,rgba(250,120,117,1) 75%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(206,105,114,1) 10%,rgba(230,113,116,1) 54%,rgba(230,113,116,1) 54%,rgba(250,120,117,1) 75%,rgba(250,120,117,1) 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce6972', endColorstr='#fa7875',GradientType=1 ); /* IE6-9 */
+    
+    border: 1px;
+    border-radius: 4px;
+      transition: -0.8s;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+
+.content form .btn:hover{
+        background: #2b265f;
+
+}
+.service-section{
+    padding-top: 55px;
+    position: relative;
+}
+.service-section img{
+    width: 47%;
+    position: absolute;
+}
+.service-section .row{justify-content: flex-end;}
+.service{
+    margin-right: 127px;
+    padding: 40px;
+    box-shadow: 0px 0px 20px -8px #fa7875;
+    margin-top: 50px;
+    margin-left: 10px;
+    }
+.service h2{
+    font-weight: 600;
+    font-size: 32px;
+    color: #3c3768;
+    margin-top: -4px;
+     text-transform: capitalize;
+}
+.service p{
+    font-weight: 400;
+    font-size: 12.9px;
+    color: #455a64;
+    letter-spacing: 1px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    line-height: 2.2;
+}
+.service a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fa7875;
+}
+.service a i{
+    padding: 0 16px;
+}
+.service a:hover{}
+
+
+.service-section1{
+    padding-top: 48px;
+    position: relative;
+}
+.service-section1 img{
+    width: 45%;
+    position: absolute;
+    right: 0;
+}
+.service-section1 .row{}
+
+.service2{
+    margin-left: 42px!important;
+    padding: 40px;
+    box-shadow: 0px 0px 20px -8px #fa7875;
+    margin-top: 175px;
+    }
+.service2 h2{
+    font-weight: 600;
+    font-size: 32px;
+    color: #3c3768;
+    margin-top: -4px;
+    text-transform: capitalize;
+}
+.service2 p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #455a64;
+    letter-spacing: 1px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    line-height: 2.2;
+}
+.service2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fa7875;
+}
+.service2 a i{
+    padding: 0 16px;
+}
+
+
+
+.service-section2{
+    padding-top: 55px;
+    position: relative;
+    padding-bottom: 100px;
+}
+.service-section2 img{
+    width: 47%;
+    position: absolute;
+}
+.service-section2 .row{justify-content: flex-end;}
+.service3{
+    margin-right: 127px;
+    padding: 40px;
+    box-shadow: 0px 0px 20px -8px #fa7875;
+    margin-top: 27px;
+    margin-left: -84px;
+    padding-top: 60px;
+    }
+.service3 h2{
+    font-weight: 600;
+    font-size: 32px;
+    color: #3c3768;
+    margin-top: -4px;
+     text-transform: capitalize;
+}
+.service3 p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #455a64;
+    letter-spacing: 1px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    line-height: 2.2;
+}
+.service3 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fa7875;
+}
+.service3 a i{
+    padding: 0 16px;
+}
+.remote-section{
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    max-width: 1068px;
+}
+
+.container.remote-section {margin-top: 50px;}
+.ahead{
+    padding: 70px 50px;
+}
+.ahead .row{
+    align-items: center;
+}
+.job{margin-left: 106px;}
+.job h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.job p{
+    color: #ffffff7d;
+    font-size: 13px;
+}
+
+.emaill form{}
+.emaill form .form-control{
+    border-color: #fff;
+    box-shadow: 1px 1px 8px -2px #fa7875;
+}
+.emaill form .btn{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ce6972+10,e67174+54,e67174+54,fa7875+75,fa7875+75 */
+    background: rgb(206,105,114); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(206,105,114,1) 10%, rgba(230,113,116,1) 54%, rgba(230,113,116,1) 54%, rgba(250,120,117,1) 75%, rgba(250,120,117,1) 75%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(206,105,114,1) 10%,rgba(230,113,116,1) 54%,rgba(230,113,116,1) 54%,rgba(250,120,117,1) 75%,rgba(250,120,117,1) 75%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(206,105,114,1) 10%,rgba(230,113,116,1) 54%,rgba(230,113,116,1) 54%,rgba(250,120,117,1) 75%,rgba(250,120,117,1) 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce6972', endColorstr='#fa7875',GradientType=1 ); /* IE6-9 */
+    
+    border: 1px;
+    border-radius: 4px;
+    transition: -0.8s;
+    padding: 9px 20px;
+    color: #fff;
+}
+
+
+.emaill form .btn:hover{
+        background: #2b265f;
+    }
+
+
+
+footer{
+    position: relative;
+    background-image: url(../images/background2.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-y: 293%;
+    background-position-x: -7%;
+}
+.part{
+    padding: 90px 50px  50px;
+    max-width: 1133px;
+}
+.zenwork{
+    margin-left: -15px;
+}
+.zenwork img{
+    width: 25%;
+}
+.zenwork p{
+    font-size: 11px;
+    color: #455a64;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.zenwork h6{
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.about{
+    padding-left: 25px;
+}
+.about ul{}
+.about ul li{
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 13px;
+    margin-bottom: 12px;
+    color: #687981;
+    font-weight: 600;
+}
+.about span{
+    color: #fa7875;
+}
+.social{}
+.social ul{}
+.social ul li{}
+.social ul li a{
+    height: 50px;
+    width: 50px;
+    display: block;
+    background-color: #322e57;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: .4s;
+}
+.social ul li a i{}
+.social ul li a:hover{
+    background: #653396;
+    color: aqua;
+}
+.take{
+    position: absolute;
+    right: 0%;
+    bottom: -3%;
+    width: 37%;
+    left: 63%;
+    z-index: -1;
+    top: -13%;
+}
